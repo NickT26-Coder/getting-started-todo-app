@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 
 export function Greeting() {
     const [greeting, setGreeting] = useState(null);
-
+// Testing storybook workflow
     useEffect(() => {
         fetch('/api/greeting')
             .then((res) => res.json())
